@@ -1,7 +1,8 @@
 from Card import Card
+from Minion import Minion
 
 def main():
-    acornBearer = Card('Acorn Bearer', 1)
+    acornBearer = Minion('Acorn Bearer', 1, 2, 1 )
     crystalPower = Card('Crystal Power', 1)
 
     acornBearer.printCard()
